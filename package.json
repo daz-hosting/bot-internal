@@ -1,18 +1,14 @@
 {
-  "name": "my-internal-bot",
+  "name": "my-discord-bot",
   "version": "1.0.0",
-  "description": "Bot internal sederhana berbasis Node.js",
+  "description": "Bot Discord internal modular untuk Termux",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "bot",
-    "cli",
-    "internal",
-    "nodejs"
-  ],
-  "author": "Nama Kamu",
+  "author": "TermuxUser",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
 }
